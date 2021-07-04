@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "Ratperson",
+    "name": "Ratperspn",
+    "maintainers": [ "Light-Wave" ],
+    "description": "Adds Ratperson lair and start.",
+    "category": "content",
+    "dependencies": [ "dda" ]
+  }
+]
