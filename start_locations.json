@@ -1,0 +1,8 @@
+[
+  {
+    "type": "start_location",
+    "id": "sloc_rat_person",
+    "name": "Ratperson's secret lair",
+    "terrain": [ "mansion_rat_t2d", "mansion_rat_t2d_east" ]
+  }
+]

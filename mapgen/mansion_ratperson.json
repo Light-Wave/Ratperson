@@ -1,0 +1,92 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "mansion_rat_t2d" ],
+    "weight": 1000,
+    "//": "ratperson room variant",
+    "object": {
+      "fill_ter": "t_thconc_floor",
+      "rows": [
+        "#!!!!..#...............#",
+        "WZ.z...+................",
+        "z......#................",
+        "!!....!##########+###...",
+        ".....KKKKK#!!#------#...",
+        ".....KKKKK#z.#-?---T#...",
+        ".......GHE#..+----hN#...",
+        "........HE#q.#-----N#...",
+        "........H.####I-----####",
+        ".]]]].....#KK#rh-----%%%",
+        ".].)].....+.K#r--A-----%",
+        "....]]]...+..#--&&&&---%",
+        ".!!...]...#ww#T---A--%%%",
+        "###########/############",
+        "   ########.#########   ",
+        "   #..........dbD.$.#   ",
+        "   #.=@@-------.....#   ",
+        "   #.=@@--h----..fE.#   ",
+        "   #.=@@-------.Ef..#   ",
+        "   #.......>........#   ",
+        "   #................#   ",
+        "   #................#   ",
+        "   ########.#########   ",
+        "   ########/#########   "
+      ],
+      "palettes": [ "standard_domestic_palette" ],
+      "terrain": {
+        " ": "t_rock",
+        ".": "t_thconc_floor",
+        "]": "t_sewage_pipe",
+        ")": "t_sewage_pump",
+        "N": "t_carpet_concrete_green",
+        "-": "t_carpet_concrete_green",
+        "r": "t_carpet_concrete_green",
+        "I": "t_carpet_concrete_green",
+        "T": "t_carpet_concrete_green",
+        "h": "t_carpet_concrete_green",
+        "&": "t_carpet_concrete_green",
+        "?": "t_carpet_concrete_green",
+        "A": "t_carpet_concrete_green",
+        "@": "t_carpet_concrete_green",
+        "/": "t_door_locked_interior",
+        "%": "t_carpet_concrete_green"
+      },
+      "furniture": {
+        "%": "f_rack_wood",
+        "=": "f_bed",
+        "!": [ "f_crate_c", "f_cardboard_box" ],
+        "&": "f_table",
+        "$": [ "f_shackle", "f_null" ],
+        "?": "f_mannequin"
+      },
+      "items": {
+        "%": [
+          { "item": "SUS_tailoring_materials", "chance": 80, "repeat": [ 3, 6 ] },
+          { "item": "leather_shop_repair", "chance": 40, "repeat": [ 2, 4 ] }
+        ],
+        "&": [
+          { "item": "SUS_tailoring_materials", "chance": 50, "repeat": [ 1, 2 ] },
+          { "item": "SUS_tailoring_fasteners", "chance": 30, "repeat": [ 1, 2 ] },
+          { "item": "leather_shop_repair", "chance": 40, "repeat": [ 2, 4 ] }
+        ],
+        "?": [
+          { "item": "pants", "chance": 100 },
+          { "item": "shirts", "chance": 100 },
+          { "item": "leather_shop_accessories", "chance": 10 }
+        ],
+        "r": [
+          { "item": "SUS_tailoring_tool_drawer", "chance": 60, "repeat": [ 0, 1 ] },
+          { "item": "tailorbooks", "chance": 60, "repeat": [ 0, 1 ] },
+          { "item": "SUS_tailoring_fasteners", "chance": 30, "repeat": [ 2, 6 ] }
+        ],
+        ".": { "item": "clutter_basement" },
+        "=": { "item": "sex_lair", "chance": 10 },
+        "!": { "item": "crate_stack", "chance": 100 },
+        "D": { "item": "sex_lair", "chance": 15 },
+        "d": { "item": "sex_lair", "chance": 15 }
+      },
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 12 ], "density": 0.1 } ]
+    }
+  }
+]

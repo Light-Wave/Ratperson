@@ -1,0 +1,12 @@
+[
+  {
+    "type": "scenario",
+    "id": "ratperson",
+    "name": "Ratperson",
+    "points": 0,
+    "description": "You are the Ratperson.  You are the night.",
+    "allowed_locs": [ "sloc_rat_person" ],
+    "start_name": "Ratperson",
+    "flags": [ "LONE_START" ]
+  }
+]
